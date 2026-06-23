@@ -31,7 +31,7 @@ var timeline = (function MasterTimeline() {
       .to(".plaid, .harvestblend, .nutrena", { duration: 0.5, autoAlpha: 1, ease: "power2.out" }, 0.1)
       // 2. feed piles slide in from their sides
       .fromTo(".feed-bottom", { yPercent: 110 , autoAlpha: 1 }, { duration: 0.8, xPercent: 0, yPercent: 0, autoAlpha: 1, ease: "power2.out" }, 0.6)
-      .fromTo(".feed-middle", { xPercent: -110 , autoAlpha: 1 }, { duration: 0.8, xPercent: 0, yPercent: 0, autoAlpha: 1, ease: "power2.out" }, 0.78)
+      .fromTo(".feed-middle", { xPercent: 110 , autoAlpha: 1 }, { duration: 0.8, xPercent: 0, yPercent: 0, autoAlpha: 1, ease: "power2.out" }, 0.78)
       .fromTo(".feed-top", { yPercent: -110 , autoAlpha: 1 }, { duration: 0.8, xPercent: 0, yPercent: 0, autoAlpha: 1, ease: "power2.out" }, 0.96)
       // 3. bags slide up from the bottom frame
       .fromTo(".bags", { yPercent: 120, autoAlpha: 1 }, { duration: 0.8, yPercent: 0, ease: "power2.out" }, 1.64)
