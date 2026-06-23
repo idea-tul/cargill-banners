@@ -70,7 +70,7 @@ $height: 280px;
   height: 154px;
   object-fit: cover;
   object-position: center;
-  z-index: 3;
+  z-index: 8;
 }
 .frame .bags-1 {
   left: 202px;
@@ -79,7 +79,7 @@ $height: 280px;
   height: 162px;
   object-fit: cover;
   object-position: center;
-  z-index: 3;
+  z-index: 8;
 }
 
 .frame .headline {
