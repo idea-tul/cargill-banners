@@ -64,7 +64,7 @@ $height: 280px;
 }
 
 .frame .bags-0 {
-  left: 0px;
+  left: -14px;
   top: 113px;
   width: 128px;
   height: 154px;
@@ -73,7 +73,7 @@ $height: 280px;
   z-index: 8;
 }
 .frame .bags-1 {
-  left: 202px;
+  left: 215px;
   top: 105px;
   width: 134px;
   height: 162px;
