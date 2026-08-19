@@ -12,4 +12,4 @@ See below for each banner review page, organized by campaign.
 
 12 animated HTML5 banners in 320x50, 300x250, 300x600, 336x280, 160x600, and 728x90.
 
-- [CGNH26408 review](/CGNH26408/_review/index.html)
+- [CGNH26408 review](CGNH26408/)
