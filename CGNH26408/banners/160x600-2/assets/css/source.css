@@ -1,0 +1,71 @@
+/* 160x600-2 — CGNH26408 Nutrena Days */
+$width: 160px;
+$height: 600px;
+
+*, *:before, *:after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+#ad, .banner {
+  position: absolute;
+  inset: 0;
+  width: $width;
+  height: $height;
+  overflow: hidden;
+  background: #ffffff;
+  user-select: none;
+}
+.banner img {
+  position: absolute;
+  display: block;
+}
+.background { z-index: 1; }
+.background {
+  inset: 0;
+  width: $width;
+  height: $height;
+}
+.plaid {
+  left: 0px;
+  top: 0px;
+  width: 160px;
+  height: 18px;
+  z-index: 2;
+}
+.logo {
+  left: 18px;
+  top: 31px;
+  width: 121px;
+  height: 28px;
+  z-index: 3;
+}
+.headline {
+  left: 14.2751px;
+  top: 364.249px;
+  width: 134px;
+  height: 130px;
+  z-index: 4;
+}
+.cta {
+  left: 29px;
+  top: 514px;
+  width: 102px;
+  height: 31px;
+  z-index: 5;
+}
+.btn-overlay {
+  position: absolute;
+  z-index: 50;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.btn-overlay:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #666;
+}
